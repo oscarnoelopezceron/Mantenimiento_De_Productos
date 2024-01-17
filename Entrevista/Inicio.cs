@@ -253,5 +253,13 @@ namespace Entrevista
         {
 
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            txtNombre.Text = "";
+            txtDescripcion.Text = "";
+            txtPrecio.Text = "";
+            txtStock.Text = "";
+        }
     } 
 }

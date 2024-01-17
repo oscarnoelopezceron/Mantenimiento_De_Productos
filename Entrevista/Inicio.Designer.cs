@@ -46,6 +46,7 @@
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblStrock = new System.Windows.Forms.Label();
             this.lblDetalles = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -210,11 +211,22 @@
             this.lblDetalles.TabIndex = 17;
             this.lblDetalles.Text = "DETALLES:";
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(950, 415);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(95, 23);
+            this.btnLimpiar.TabIndex = 18;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1159, 450);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblDetalles);
             this.Controls.Add(this.lblStrock);
             this.Controls.Add(this.lblPrecio);
@@ -262,6 +274,7 @@
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.Label lblStrock;
         private System.Windows.Forms.Label lblDetalles;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
 
