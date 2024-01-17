@@ -11,6 +11,7 @@ namespace Entrevista
 {
     internal class DataBase
     {
+        //conexion 
         
         private string connectionString = "Data Source=(local);Initial Catalog=Productos;Integrated Security=True";
 
@@ -19,7 +20,7 @@ namespace Entrevista
             return new SqlConnection(connectionString);
         }
 
-        // Otros métodos para realizar operaciones CRUD...
+        
         public bool ProbarConexion()
         {
             using (SqlConnection conn = new SqlConnection(connectionString))

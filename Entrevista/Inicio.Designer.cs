@@ -71,7 +71,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(510, 370);
+            this.btnAgregar.Location = new System.Drawing.Point(855, 370);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 2;
@@ -81,7 +81,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(602, 370);
+            this.btnActualizar.Location = new System.Drawing.Point(947, 370);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(95, 23);
             this.btnActualizar.TabIndex = 3;
@@ -96,12 +96,12 @@
             this.dgvProductos.Name = "dgvProductos";
             this.dgvProductos.RowHeadersWidth = 51;
             this.dgvProductos.RowTemplate.Height = 24;
-            this.dgvProductos.Size = new System.Drawing.Size(471, 214);
+            this.dgvProductos.Size = new System.Drawing.Size(819, 214);
             this.dgvProductos.TabIndex = 4;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(713, 370);
+            this.btnEliminar.Location = new System.Drawing.Point(1058, 370);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 5;
@@ -139,28 +139,28 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(612, 179);
+            this.txtNombre.Location = new System.Drawing.Point(957, 179);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 22);
             this.txtNombre.TabIndex = 9;
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(612, 220);
+            this.txtDescripcion.Location = new System.Drawing.Point(957, 220);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(176, 22);
             this.txtDescripcion.TabIndex = 10;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(612, 267);
+            this.txtPrecio.Location = new System.Drawing.Point(957, 267);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(100, 22);
             this.txtPrecio.TabIndex = 11;
             // 
             // txtStock
             // 
-            this.txtStock.Location = new System.Drawing.Point(612, 313);
+            this.txtStock.Location = new System.Drawing.Point(957, 313);
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(100, 22);
             this.txtStock.TabIndex = 12;
@@ -168,7 +168,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(507, 179);
+            this.lblNombre.Location = new System.Drawing.Point(852, 179);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(59, 16);
             this.lblNombre.TabIndex = 13;
@@ -177,7 +177,7 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(507, 226);
+            this.lblDescripcion.Location = new System.Drawing.Point(852, 226);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(82, 16);
             this.lblDescripcion.TabIndex = 14;
@@ -186,7 +186,7 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(507, 273);
+            this.lblPrecio.Location = new System.Drawing.Point(852, 273);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(59, 16);
             this.lblPrecio.TabIndex = 15;
@@ -195,7 +195,7 @@
             // lblStrock
             // 
             this.lblStrock.AutoSize = true;
-            this.lblStrock.Location = new System.Drawing.Point(507, 313);
+            this.lblStrock.Location = new System.Drawing.Point(852, 313);
             this.lblStrock.Name = "lblStrock";
             this.lblStrock.Size = new System.Drawing.Size(44, 16);
             this.lblStrock.TabIndex = 16;
@@ -204,7 +204,7 @@
             // lblDetalles
             // 
             this.lblDetalles.AutoSize = true;
-            this.lblDetalles.Location = new System.Drawing.Point(621, 129);
+            this.lblDetalles.Location = new System.Drawing.Point(966, 129);
             this.lblDetalles.Name = "lblDetalles";
             this.lblDetalles.Size = new System.Drawing.Size(79, 16);
             this.lblDetalles.TabIndex = 17;
@@ -214,7 +214,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1159, 450);
             this.Controls.Add(this.lblDetalles);
             this.Controls.Add(this.lblStrock);
             this.Controls.Add(this.lblPrecio);

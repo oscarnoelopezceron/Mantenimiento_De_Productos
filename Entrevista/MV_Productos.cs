@@ -13,6 +13,7 @@ namespace Entrevista
     {
         private DataBase db;
 
+
         public MV_Productos()
         {
             this.db = new DataBase();
@@ -28,7 +29,7 @@ namespace Entrevista
 
            
         }
-
+        //listar productos
         public List<Productos> ObtenerProductos()
         {
             List<Productos> productos = new List<Productos>();
@@ -63,12 +64,12 @@ namespace Entrevista
             return productos;
         }
 
-        //NEtodo buscar por id
+        //metodo buscar por id
         public Productos BuscarProductoPorId(int id)
         {
             Productos producto = null;
 
-            using (SqlConnection conn = db.GetConnection()) // Asume que tienes un método GetConnection() en tu clase DataBase
+            using (SqlConnection conn = db.GetConnection()) 
             {
                 conn.Open();
 
@@ -121,7 +122,7 @@ namespace Entrevista
                 }
             }
         }
-        //actualizar
+        //Actualizar..
 
         public void ActualizarProducto(Productos producto)
         {
